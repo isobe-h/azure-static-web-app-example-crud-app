@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "STORAGE_ACCOUNT_NAME": "[ENTER_YOUR_VALUE]",
+    "STORAGE_KEY": "[ENTER_YOUR_VALUE]",
+    "Host":{
+      "CORS": "*",
+      "LocalHttpPort": 7071
+    }
+  }
+}

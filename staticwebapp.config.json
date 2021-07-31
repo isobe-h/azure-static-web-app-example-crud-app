@@ -1,0 +1,39 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "rewrite": "/index.html"
+    },
+    {
+      "route": "/api/*",
+      "allowedRoles": ["authenticated"]
+    },
+    {
+      "route": "/login/aad",
+      "rewrite": "/.auth/login/aad"
+    },
+    {
+      "route": "/login/twitter",
+      "statusCode": 404
+    },
+    {
+      "route": "/login/facebook",
+      "statusCode": 404
+    },
+    {
+      "route": "/login/google",
+      "rewrite": "/.auth/login/google"
+    },
+    {
+      "route": "/login/github",
+      "rewrite": "/.auth/login/github"
+    },
+    {
+      "route": "/logout",
+      "redirect": "/.auth/logout"
+    }
+  ],
+  "globalHeaders": {
+    "X-Frame-Options": "DENY"
+  }
+}
