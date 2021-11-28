@@ -11,7 +11,7 @@
     "test:w": "jest --watch --verbose"
   },
   "dependencies": {
-    "@azure/storage-file-datalake": "^12.6.0",
+    "@azure/storage-file-datalake": "^12.7.0",
     "busboy": "^0.3.1"
   },
   "devDependencies": {
