@@ -23,7 +23,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "npm i -g azure-functions-core-tools@3 --unsafe-perm true && npm i @azure/static-web-apps-cli@0.8.2"
   },
   "eslintConfig": {
     "extends": [
